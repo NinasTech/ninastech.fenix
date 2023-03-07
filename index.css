@@ -1,0 +1,132 @@
+.topbox{
+  width: 2058px;
+  height: 30px;
+  position: relative;
+}
+
+.logo{
+  position: relative;
+  left: 520px;
+  top: -226px;
+}
+.computergirls {
+position: relative;
+font-family: 'Merriweather';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+left: -460px;
+top:-150px;
+}
+
+/* */
+
+img {
+  margin-top: 30px;
+}
+
+h2 {
+  position: relative;
+  left: 500px;
+}
+
+/* CSS */
+.button-56 button-mental {
+  align-items: center;
+  background-color: #fffbfa;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-56:after button-mental{
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.button-56:hover:after button-mental {
+  transform: translate(0, 0);
+}
+
+.button-56:active button-mental {
+  background-color: #ffffff;
+  outline: 0;
+}
+
+.button-56:hover button-mental{
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-56 button-mental {
+    padding: 0 40px;
+  }
+}
+
+
+
+
+.pinkboxtop {
+  width: 770px;
+  height: 600px;
+  background-color: #BF254A;
+  left: 650px;
+  position: relative;
+top: 319px;
+font-family: 'Merriweather';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+color: #FFFBFB;
+}
+
+.ninastechis {
+position: relative;
+font-family: 'Merriweather';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+left: 73px;
+top:377px;
+}
+
+.braintext {
+font-family: 'Merriweather';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+left: 60px;
+position: relative;
+}
+
+.unique {
+  left:636px;
+  top:-295px;
+  position: relative;
+}
