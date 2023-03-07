@@ -18,9 +18,7 @@ font-size: 25px;
 left: -460px;
 top:-150px;
 }
-
 /* */
-
 img {
   margin-top: 30px;
 }
@@ -30,8 +28,12 @@ h2 {
   left: 500px;
 }
 
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
 /* CSS */
-.button-56 button-mental {
+.button-56 {
   align-items: center;
   background-color: #fffbfa;
   border: 2px solid #111;
@@ -55,7 +57,7 @@ h2 {
   touch-action: manipulation;
 }
 
-.button-56:after button-mental{
+.button-56:after {
   background-color: #111;
   border-radius: 8px;
   content: "";
@@ -70,27 +72,24 @@ h2 {
   z-index: -1;
 }
 
-.button-56:hover:after button-mental {
+.button-56:hover:after{
   transform: translate(0, 0);
 }
 
-.button-56:active button-mental {
+.button-56:active{
   background-color: #ffffff;
   outline: 0;
 }
 
-.button-56:hover button-mental{
+.button-56:hover{
   outline: 0;
 }
 
 @media (min-width: 768px) {
-  .button-56 button-mental {
+  .button-56 {
     padding: 0 40px;
   }
 }
-
-
-
 
 .pinkboxtop {
   width: 770px;
