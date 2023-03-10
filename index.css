@@ -7,7 +7,7 @@
 .logo{
   position: relative;
   left: 520px;
-  top: -226px;
+  top: -638px;
 }
 .computergirls {
 position: relative;
@@ -93,11 +93,11 @@ h2 {
 
 .pinkboxtop {
   width: 770px;
-  height: 600px;
+  height: 716px;
   background-color: #BF254A;
   left: 650px;
   position: relative;
-top: 319px;
+top: -7px;
 font-family: 'Merriweather';
 font-style: normal;
 font-weight: 400;
@@ -126,6 +126,29 @@ position: relative;
 
 .unique {
   left:636px;
-  top:-295px;
+  top: 4px;
+  width: 190px;
+  height: 120px;
   position: relative;
+}
+
+
+.buttonsfinal {
+  display: flex;
+  justify-content: center;
+}
+
+.firstgreybox {
+  width: 1457px;
+  height: 404px;
+  background-color: #C6BDC1;
+  left: 0px;
+  position: relative;
+  top: -593px;
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  color: black;
+
 }
